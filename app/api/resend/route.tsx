@@ -7,9 +7,9 @@ export async function POST(req: Request, res: Response) {
     const body = await req.json();
     try {
         const data = await resend.emails.send({
-            from: 'Contato - <noreply@goodsunsolar.com.br>',
-            to: ['contato@goodsunsolar.com.br'],
-            subject: 'Construção - Contato',
+            from: 'Contato - <noreply@agenciakls.com.br>',
+            to: ['fabiofreitassilvacontato@gmail.com'],
+            subject: 'Mulheres de Frente - Contato',
             react: EmailTemplate(body),
         });
         return Response.json(data);
