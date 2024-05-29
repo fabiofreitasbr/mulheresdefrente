@@ -36,7 +36,7 @@ export default function FormContato({ color = "white" }: colorType) {
         else if (!email.toLowerCase().match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) { setMessage('O e-mail digitado não é válido'); }
         else {
             setMessage('');
-            axios.post('/api/resend', { nome, email, phone })
+            axios.post('/api/prisma', { nome, email, phone })
             .then(function (response) {
                 if (response.data) { setMessage("Mensagem enviada com sucesso!"); setColorMessage('bg-green-700'); } else { setMessage("Houve um erro ao enviar a mensagem!"); setColorMessage('bg-red-700'); }
             })
