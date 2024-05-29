@@ -18,8 +18,8 @@ export default function Banner() {
                                 <FormContato color="white" />
                             </div>
                         </div>
-                        <div className="absolute z-10 md:relative -right-[65%] sm:-right-[55%] md:right-auto bottom-0 md:bottom-auto md:w-1/2 bg-feature bg-contain bg-bottom bg-no-repeat h-full opacity-50 sm:opacity-60 md:opacity-100">
-                            <Image src="/img/img-banner.png" width={752} height={652} className="w-3/4 invisible" alt="" />
+                        <div className="absolute z-10 md:relative -right-[65%] sm:-right-[55%] md:right-auto bottom-0 md:bottom-auto md:w-1/2 md:bg-feature bg-contain bg-bottom bg-no-repeat h-full opacity-50 sm:opacity-60 md:opacity-100">
+                            <Image src="/img/img-banner.png" width={752} height={652} className="h-full md:w-3/4 object-contain md:invisible" alt="" />
                         </div>
                     </div>
                 </div>
