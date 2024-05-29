@@ -8,6 +8,6 @@ export async function POST(req: Request, res: Response) {
             data: { nome, email, telefone },
             withCredentials: false,
         }
-    )
+    );
     return Response.json(responsePost);
 }
