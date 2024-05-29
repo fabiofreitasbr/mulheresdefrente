@@ -7,12 +7,14 @@ import Projeto from "./parts/home/projeto";
 import Missao from "./parts/home/missao";
 import Diferencial from "./parts/home/diferencial";
 import Vantagens from "./parts/home/vantagens";
+import Marquee from "./parts/home/marquee";
 
 export default function Home() {
     return (
         <main>
             <Header />
             <Banner />
+            <Marquee />
             <About />
             <Projeto />
             <Missao />
