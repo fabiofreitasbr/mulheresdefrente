@@ -7,7 +7,7 @@ export default function Marquee() {
         return idents;
     }
     return (
-        <div className="bg-purple-700 border-t-4 border-b-4 border-beige-500 py-5 text-center overflow-hidden font-playfair font-bold text-beige-500 text-2xl">
+        <div className="bg-purple-700 border-t-4 border-b-4 border-beige-500 py-3 md:py-4 lg:py-5 text-center overflow-hidden font-playfair font-bold text-beige-500 text-base md:text-lg lg:text-xl 2xl:text-2xl">
             <div className="marquee flex justify-center gap-10">
                 <Listing />
             </div>
