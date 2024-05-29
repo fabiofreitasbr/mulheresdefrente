@@ -3,14 +3,14 @@ const ContentLinks = {
 	email: 'mailto:contato@meusite.com.br',
     emailShow: 'contato@meusite.com.br',
 
-	phone: 'tel:+5521987654321',
-    phoneShow: '(21) 98765-4321',
+	phone: 'tel:+5521967013300',
+    phoneShow: '(21) 96701-3300',
 
-	whatsapp: 'https://wa.me/5521987654321',
-    whatsappShow: '(21) 98765-4321',
+	whatsapp: 'https://wa.me/5521967013300',
+    whatsappShow: '(21) 96701-3300',
     
 	facebook: 'https://facebook.com/',
-	instagram: 'https://www.instagram.com/',
+	instagram: 'https://www.instagram.com/daianelunarj/',
 	youtube: '',
     
 	maps: '',
