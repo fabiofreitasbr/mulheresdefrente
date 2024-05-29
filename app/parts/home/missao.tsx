@@ -14,19 +14,19 @@ export default function Missao() {
                 <div className="md:grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="py-4 md:py-2">
                         <div className="text-center">
-                            <h3 className="py-2 md:py-4 text-xl md:text-3xl font-bold font-playfair">Nossa Missão</h3>
+                            <h3 className="py-2 md:py-4 text-2xl lg:text-3xl font-bold font-playfair">Nossa Missão</h3>
                             <h4 className="text-base md:text-lg font-light">Gerar Protagonismo, União e Crescimento para mulheres empreendedoras.</h4>
                         </div>
                     </div>
                     <div className="py-4 md:py-2">
                         <div className="text-center">
-                            <h3 className="py-2 md:py-4 text-xl md:text-3xl font-bold font-playfair">Nossa visão</h3>
+                            <h3 className="py-2 md:py-4 text-2xl lg:text-3xl font-bold font-playfair">Nossa visão</h3>
                             <h4 className="text-base md:text-lg font-light">Ser reconhecida como a maior roda de negócios feminina da América Latina</h4>
                         </div>
                     </div>
                     <div className="py-4 md:py-2">
                         <div className="text-center">
-                            <h3 className="py-2 md:py-4 text-xl md:text-3xl font-bold font-playfair">Valores</h3>
+                            <h3 className="py-2 md:py-4 text-2xl lg:text-3xl font-bold font-playfair">Valores</h3>
                             <h4 className="text-base md:text-lg font-light">Ética, União, Liderança, Excelência, Respeito,  Contribuição, comprometimento, Responsabilidade social e Garra.</h4>
                         </div>
                     </div>
