@@ -23,7 +23,11 @@ const Diferencial = () => {
                     </div>
 
                     <div className="lg:w-3/6 px-4">
-                        <Image src="/img/onu.png" width={720} height={405} alt="Estúdio Grape" className="w-full rounded-3xl" />
+                        <div className="grid grid-cols-2 gap-8">
+                            <Image src="/img/foto-grupo.png" width={720} height={405} alt="Estúdio Grape" className="w-full rounded-3xl col-span-2 aspect-video object-cover" />
+                            <Image src="/img/consulado.png" width={720} height={405} alt="Estúdio Grape" className="w-full rounded-3xl aspect-square object-cover" />
+                            <Image src="/img/evento.png" width={720} height={405} alt="Estúdio Grape" className="w-full rounded-3xl aspect-square object-cover" />
+                        </div>
                     </div>
                 </div>
 
