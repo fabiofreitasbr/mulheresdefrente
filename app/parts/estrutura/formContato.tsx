@@ -15,7 +15,7 @@ export default function FormContato({ color = "white" }: colorType) {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [colorMessage, setColorMessage] = useState('bg-red-700');
-    const fieldColor = (color == "white") ? "border-zinc-200 placeholder:text-zinc-200 text-beige-500" : "border-purple-700 placeholder:text-gray-800 text-purple-700";
+    const fieldColor = (color == "white") ? "bg-purple-700 md:bg-transparent bg-purple-700 border-zinc-200 placeholder:text-zinc-200 text-beige-500" : "bg-transparent border-purple-700 placeholder:text-gray-800 text-purple-700";
     const buttonColor = (color == "white") ? "bg-beige-500 hover:bg-beige-600 text-purple-700 " : "bg-purple-700 hover:bg-purple-600 text-beige-500 ";
 
     const handleNome = (e: ChangeEvent<HTMLInputElement>) => {
@@ -46,9 +46,9 @@ export default function FormContato({ color = "white" }: colorType) {
     return (
         <form onSubmit={onSubmitSend}>
             <div className="grid gap-5 container mx-auto max-w-lg">
-                <input type="text" name="nome" onChange={handleNome} value={nome} className={"w-full py-3 px-6 rounded-lg text-lg font-light bg-transparent border-2 " + fieldColor} placeholder="Nome" />
-                <input type="text" name="email" onChange={handleEmail} value={email} className={"w-full py-3 px-6 rounded-lg text-lg font-light bg-transparent border-2 " + fieldColor} placeholder="E-mail" />
-                <input type="text" name="phone" onChange={handlePhone} value={phone} className={"w-full py-3 px-6 rounded-lg text-lg font-light bg-transparent border-2 " + fieldColor} placeholder="Telefone" />
+                <input type="text" name="nome" onChange={handleNome} value={nome} className={"w-full py-3 px-6 rounded-lg text-lg font-light border-2 " + fieldColor} placeholder="Nome" />
+                <input type="text" name="email" onChange={handleEmail} value={email} className={"w-full py-3 px-6 rounded-lg text-lg font-light border-2 " + fieldColor} placeholder="E-mail" />
+                <input type="text" name="phone" onChange={handlePhone} value={phone} className={"w-full py-3 px-6 rounded-lg text-lg font-light border-2 " + fieldColor} placeholder="Telefone" />
                 <div className="flex justify-end">
                     <button type="submit" className={"py-2 px-6 text-base rounded-full transition ease-in-out duration-300 delay-300 uppercase flex justify-center items-center gap-x-2 " + buttonColor}><FontAwesomeIcon icon={faArrowRight} />Quero Participar</button>
                 </div>
