@@ -1,9 +1,5 @@
 "use client"
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import axios from "axios";
 import Link from "next/link";
-import { ChangeEvent, FormEvent, useState } from "react";
 import ContentLinks from "../dados/contentLinks";
 
 export default function Call() {
