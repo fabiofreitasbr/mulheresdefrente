@@ -50,7 +50,7 @@ export default function FormContato({ color = "white" }: colorType) {
                 <input type="text" name="email" onChange={handleEmail} value={email} className={"w-full py-3 px-6 rounded-lg text-lg font-light border-2 " + fieldColor} placeholder="E-mail" />
                 <input type="text" name="phone" onChange={handlePhone} value={phone} className={"w-full py-3 px-6 rounded-lg text-lg font-light border-2 " + fieldColor} placeholder="Telefone" />
                 <div className="flex justify-end">
-                    <button type="submit" className={"py-2 px-6 text-base rounded-full transition ease-in-out duration-300 delay-300 uppercase flex justify-center items-center gap-x-2 " + buttonColor}><FontAwesomeIcon icon={faArrowRight} />Quero Participar</button>
+                    <button type="submit" className={"py-2 px-6 text-base rounded-full transform hover:scale-105 duration-300 transition delay-300 uppercase flex justify-center items-center gap-x-2 " + buttonColor}><FontAwesomeIcon icon={faArrowRight} />Enviar</button>
                 </div>
             </div>
             {

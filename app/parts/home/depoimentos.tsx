@@ -38,7 +38,7 @@ export default function Depoimentos() {
                                 <div className="text-3xl pb-8">
                                     O que nossos clientes falam sobre nosso serviço.
                                 </div>
-                                <Link href={ContentLinks.whatsapp}><button type="button" className="py-2 px-6 text-base rounded-md bg-purple-500 hover:bg-purple-600 transition ease-in-out duration-300 delay-300 text-white uppercase flex justify-center items-center gap-x-2">eu quero saber mais</button></Link>
+                                <Link href={ContentLinks.whatsapp}><button type="button" className="py-2 px-6 text-base rounded-md bg-purple-500 hover:bg-purple-600 transform hover:scale-105 duration-300 transition delay-300 text-white uppercase flex justify-center items-center gap-x-2">eu quero saber mais</button></Link>
                             </div>
                         </div>
                         <Splide options={splideOptions} aria-label="Slide de Vídeos">

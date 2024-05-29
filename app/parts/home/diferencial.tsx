@@ -31,7 +31,7 @@ const Diferencial = () => {
                 </div>
 
                 <div className="flex justify-center mt-4">
-                    <button type="submit" className="py-2 px-6 text-base rounded-full bg-purple-700 hover:bg-purple-600 transition ease-in-out duration-300 delay-300 text-beige-500 uppercase flex justify-center items-center gap-x-2"><FontAwesomeIcon icon={faArrowRight} />Quero Participar</button>
+                    <button type="submit" className="py-2 px-6 text-base rounded-full bg-purple-700 hover:bg-purple-600 transform hover:scale-105 duration-300 transition duration-300 delay-300 text-beige-500 uppercase flex justify-center items-center gap-x-2"><FontAwesomeIcon icon={faArrowRight} />Quero Participar</button>
                 </div>
             </div>
         </section>

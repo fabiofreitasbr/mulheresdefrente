@@ -12,7 +12,7 @@ export default function Header() {
                     <div className="flex justify-end items-center h-full">
                         <div>
                             <Link href={ContentLinks.whatsapp}>
-                                <button type="button" className="bg-purple-600 hover:bg-purple-700 transition text-beige-500 border-2 border-beige-500 font-medium rounded-full my-4 py-2 px-4 text-base mx-auto uppercase flex justify-center items-center gap-1">
+                                <button type="button" className="bg-purple-600 hover:bg-purple-700 transform hover:scale-105 duration-300 transition text-beige-500 border-2 border-beige-500 font-medium rounded-full my-4 py-2 px-4 text-base mx-auto uppercase flex justify-center items-center gap-1">
                                     <FontAwesomeIcon icon={faWhatsapp} className="h-6 w-6" /> 
                                     <div> (21) 96701-3300</div>
                                 </button>
