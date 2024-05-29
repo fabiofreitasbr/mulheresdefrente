@@ -7,14 +7,14 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
     return (
         <>
-            <section className="z-10 relative">
+            <section className="z-10 relative py-12 lg:py-0">
                 <div className="z-20 relative container mx-auto px-4">
-                    <div className="block lg:flex items-end">
-                        <div className="lg:w-2/6 lg:flex justify-content items-end px-4 hidden">
+                    <div className="block lg:flex items-center">
+                        <div className="lg:w-2/6 lg:flex justify-content items-end h-full px-4 hidden">
                             <Image src="/img/about.png" width={720} height={405} alt="Estúdio Grape" className="w-full mx-auto" />
                         </div>
-                        <div className="lg:w-4/6 px-4">
-                            <div className="text-base text-justify lg:text-right md:text-lg text-zinc-700 my-10 md:my-16">
+                        <div className="lg:w-4/6 px-4 relative h-full lg:flex justify-start">
+                            <div className="h-full text-justify lg:text-right text-base xl:text-lg text-zinc-700">
                                 <h2 className="text-center lg:text-right text-2xl lg:text-3xl xl:text-4xl py-4 text-purple-700 font-playfair font-semibold">Caminhada Juntas pela Igualdade</h2>
                                 <p className="py-2 font-light">A <span className="font-bold">Caminhada pela Igualdade das Mulheres</span> é um <span className="font-bold">evento anual</span> que transcende sua natureza de reunião, emergindo como um <span className="font-bold">símbolo poderoso de esperança e determinação</span>. <span className="font-bold">Mulheres de diversas origens se unem</span>, seus passos ecoando uma sinfonia de mudança pelas ruas adornadas com <span className="font-bold">coragem feminina, almejando um futuro onde a igualdade seja tangível</span>.</p>
 
