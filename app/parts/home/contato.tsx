@@ -24,7 +24,7 @@ const Contato = () => {
                             </div>
                         </div>
                         <div className="w-5/12 text-sm md:text-xl rounded-xl text-black">
-                            <div className="text-md md:text-lg p-4 md:p-6 my-3 md:mt-0">
+                            <div className="container mx-auto max-w-lg text-md md:text-lg p-4 md:p-6 my-3 md:mt-0">
                                 <div className="">
                                     <h3 className=" text-2xl md:text-4xl pb-6 text-center text-purple-700 font-playfair font-bold">Faça parte do projeto!</h3>
                                     <h4 className=" text-xl md:text-2xl pb-6 text-center font-light text-purple-700">Participe do nosso evento preenchendo os dados abaixo.</h4>
