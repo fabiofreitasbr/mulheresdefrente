@@ -8,6 +8,7 @@ import Missao from "./parts/home/missao";
 import Diferencial from "./parts/home/diferencial";
 import Vantagens from "./parts/home/vantagens";
 import Marquee from "./parts/home/marquee";
+import Video from "./parts/home/video";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Header />
             <Banner />
             <Marquee />
+            <Video />
             <About />
             <Projeto />
             <Missao />
