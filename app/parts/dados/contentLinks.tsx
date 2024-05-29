@@ -10,7 +10,8 @@ const ContentLinks = {
     whatsappShow: '(21) 96701-3300',
     
 	facebook: 'https://facebook.com/',
-	instagram: 'https://www.instagram.com/daianelunarj/',
+	instagram: 'https://www.instagram.com/projetomulheresdefrente',
+	instagramDaiane: 'https://instagram.com/daianelunarj',
 	youtube: '',
     
 	maps: '',
