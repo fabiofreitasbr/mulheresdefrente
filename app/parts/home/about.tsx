@@ -24,7 +24,11 @@ const About = () => {
 
                                 <p className="py-2 font-light">Esta jornada não é apenas uma <span className="font-bold">caminhada física</span>, mas uma busca coletiva por <span className="font-bold">equidade e justiça</span>. Homens e mulheres se unem como <span className="font-bold">guardiões dessa causa, desafiando fronteiras e plantando as sementes do progresso</span> em direção a um horizonte onde a <span className="font-bold">igualdade é uma realidade para todos</span>.</p>
                                 <div className="flex justify-center md:justify-start lg:justify-end mt-4">
-                                    <button type="submit" className="py-2 px-6 text-base rounded-full bg-beige-500 hover:bg-beige-600 transform hover:scale-105 duration-300 transition delay-300 text-purple-700 uppercase flex justify-center items-center gap-x-2"><FontAwesomeIcon icon={faArrowRight} />Quero Participar</button>
+                                    <Link href={ContentLinks.whatsapp} target="_blank">
+                                        <button type="submit" className="py-2 px-6 text-base rounded-full bg-beige-500 hover:bg-beige-600 transform hover:scale-105 duration-300 transition delay-300 text-purple-700 uppercase flex justify-center items-center gap-x-2">
+                                            <FontAwesomeIcon icon={faArrowRight} />Quero Participar
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

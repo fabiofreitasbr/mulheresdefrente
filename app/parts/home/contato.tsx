@@ -25,7 +25,11 @@ const Contato = () => {
                                     <hr className="border border-beige-600 w-full" />
                                 </div>
                                 <div className="w-max-md gap-4">
-                                    <Link className="block" href={ContentLinks.whatsapp}><button type="button" className="w-full bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105 duration-300 transition font-medium rounded-full py-3 px-2 block text-base "><FontAwesomeIcon icon={faWhatsapp} className="px-1" /> Envie-nos uma mensagem!</button></Link>
+                                    <Link className="block" href={ContentLinks.whatsapp}>
+                                        <button type="button" className="w-full bg-purple-600 hover:bg-purple-700 text-white transform hover:scale-105 duration-300 transition font-medium rounded-full py-3 px-2 block text-base ">
+                                            <FontAwesomeIcon icon={faWhatsapp} className="px-1" /> Envie-nos uma mensagem!
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
