@@ -7,7 +7,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 export default function Header() {
     return (
         <>
-            <header className="absolute w-full">
+            <header className="absolute top-0 z-20 w-full">
                 <div className="container mx-auto px-4 text-white h-full">
                     <div className="flex justify-end items-center h-full">
                         <div>
