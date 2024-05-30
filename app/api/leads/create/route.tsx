@@ -21,7 +21,7 @@ export async function POST(req: Request, res: Response) {
                     },
                 });
                 responseContent.status = true;
-                responseContent.message = "Você foi cadastrado na lista de espera com sucesso!";
+                responseContent.message = "Formulário enviado com sucesso";
                 responseContent.data = avisemePrisma;
             }
             catch (erro:any) {

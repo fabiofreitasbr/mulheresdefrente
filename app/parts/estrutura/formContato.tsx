@@ -29,7 +29,6 @@ export default function FormContato({ color = "white" }: colorType) {
     };
     function onSubmitSend(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
-
         if (nome == null || nome.length < 3) { setMessage('O nome digitado não é válido'); }
         else if (email == null || email.length < 5) { setMessage('O e-mail digitado não é válido'); }
         else if (telefone == null || telefone.length < 7) { setMessage('O telefone digitado não é válido'); }
@@ -38,7 +37,9 @@ export default function FormContato({ color = "white" }: colorType) {
             setMessage('');
             axios.post('/api/leads/create', { nome, email, telefone })
             .then(function (response) {
-                if (response.data) { setMessage("Mensagem enviada com sucesso!"); setColorMessage('bg-green-700'); } else { setMessage("Houve um erro ao enviar a mensagem!"); setColorMessage('bg-red-700'); }
+                setMessage(response.data.message);
+                response.data.status ? setColorMessage('bg-green-700') : setColorMessage('bg-red-700');
+                setNome(""); setEmail(""); setTelefone("");
             })
             .catch(function (error) { setMessage("HOUVE UM ERRO AO ENVIAR A MENSAGEM"); });
         }
