@@ -36,10 +36,10 @@ const Contato = () => {
                         <div className="lg:w-7/12 text-sm md:text-xl text-black rounded-xl">
                             <div className="relative text-md md:text-lg py-6 md:p-6 my-3 md:mt-0 h-full flex flex-col justify-center items-start">
                                 <div className="text-lg md:text-xl pb-8">
-                                    <h3 className="font-medium text-purple-700 font-playfair text-3xl md:text-4xl: lg:text-4xl xl:text-5xl">Quem é <span className="font-bold">Daiane Luna</span>?</h3>
+                                    <h3 className="font-medium text-purple-700 font-playfair text-3xl md:text-4xl: lg:text-4xl xl:text-5xl">Quem sou eu?</h3>
                                 </div>
                                 <div className="bg-purple-700 px-8 pt-8 rounded-3xl text-white text-base lg:text-lg xl:text-xl pb-8 pr-[38%] sm:pr-[25%] md:pr-40 lg:pr-52 xl:pr-64 md:mr-2 lg:mr-10 2xl:mr-20">
-                                    <p className="font-light">Daiane Luna é uma líder visionária que promove o empoderamento econômico feminino para combater a violência, proporcionando educação, capacitação e recursos financeiros para mulheres vulneráveis no Rio de Janeiro.</p>
+                                    <p className="font-light">Eu sou uma líder visionária que promove o empoderamento econômico feminino para combater a violência, proporcionando educação, capacitação e recursos financeiros para mulheres vulneráveis no Rio de Janeiro.</p>
                                 </div>
                                 <Image src="/img/onu-transparente.png" className="absolute w-[45%] sm:w-[30%] md:w-38 lg:w-80 xl:w-96 -right-5 md:-right-10 -bottom-7 md:-bottom-24 lg:-bottom-20" width={383} height={629} alt="" />
                             </div>

@@ -7,7 +7,7 @@ interface EmailTemplateProps {
 export function EmailTemplate(body: EmailTemplateProps) {
     return (
         <div>
-            <h1>Contato - Site - GoodSun</h1>
+            <h1>Contato - Site - Daiane Luna</h1>
             <p>Nome: {body.nome}!</p>
             <p>E-mail: {body.email}!</p>
             <p>Telefone: {body.telefone}!</p>
